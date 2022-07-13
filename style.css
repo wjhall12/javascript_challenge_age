@@ -1,0 +1,28 @@
+.container-1 {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+
+.flex-box-container-1 {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  /* hit refresh and inspect the code to see the elements inside the container */
+  justify-content: space-around;
+  /* play around with different options for justify content to see how it looks in a flex box */
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* play around with different options for flex direction to see how it looks in a flex box. row, column, column-reverse, row-reverse. Ultimately, keep it at row */
+
+}
+
+
+.flex-box-container-1 div {
+  padding: 10px;
+  /* this gives spaces between each button */
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
